@@ -19,31 +19,35 @@
  
       .cloud {
         width: 500px;
-        height: 290px;
-        background: url(cloud.PNG);
-        background-size: contain;
-
-        margin: 50px auto;
-
-      }
-
-      .cloud .text {
-        padding-top: 160px;
-        text-align: center;
-        color: black;
-        font-size: 50px;
-        font-family: 'Fredoka One', cursive;
-      }
-
-      .cloud {
-        width: 500px;
-        height: 290px;
+        height: 130px;
         background: url(cloud.PNG);
         background-size: contain;
 
         margin: 40px auto;
 
+         padding-top: 160px;
+        text-align: center;
+
       }
+
+
+      .cloud .text {
+        display: block;
+
+       
+        color: black;
+        font-size: 50px;
+        font-family: 'Fredoka One', cursive;
+        text-decoration: none;
+       
+      }
+
+
+      .cloud .text:hover {
+        text-decoration: underline;
+      }
+
+     
      
 
   </style>
@@ -51,10 +55,10 @@
   <body>
     <div class="title"> Brain Brake </div>
     <div class="cloud PNG">
-      <a href="Mental Health.html"><div class="text"> Mental Health </div></a>
+      <a href="Mental Health.html" class="text">Mental Health</a>
     </div>
     <div class="cloud PNG">
-      <div class="text"> Physical Health </div>
+      <a href="Physical Health.html" class="text">Physical Health</a>
     </div>
   </body>
 </html>
